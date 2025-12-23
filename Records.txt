@@ -1,0 +1,14 @@
+package Records;
+import java.util.*;
+
+	record Person(int id,String name,int age){
+
+	}
+
+	public class Main {
+	    public static void main(String[] args) {
+	        Person p=new Person(1,"Ajay",22);
+	        Person p1=new Person(1,"Ajay",22);
+	        System.out.println(p.equals(p1));
+	    }
+}
